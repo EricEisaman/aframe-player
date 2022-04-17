@@ -8,7 +8,7 @@ AFRAME.registerComponent('player', {
     if(this.data.me){
       console.log('Adding my-player');
       this.el.setAttribute('id','my-player');
-      this.el.setAttribute('wasd-controls','acceleration:250');
+      //this.el.setAttribute('wasd-controls','acceleration:250');
       this.addCamTarget();
     }
     this.addAvatar();
